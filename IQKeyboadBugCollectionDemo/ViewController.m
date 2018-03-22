@@ -56,7 +56,7 @@
 
     
     if (indexPath.row == 6) {
-        feild.text = @"in 4.7 inche Click -> Close keyboard -> Click again";
+        feild.text = @"(in 4.7 inche) Click -> Close keyboard -> Click again";
     }
     
     return cell;

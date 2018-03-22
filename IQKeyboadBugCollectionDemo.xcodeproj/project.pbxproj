@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D66F6138B1AF432D84A0EF3 /* libPods-IQKeyboadBugCollectionDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF6B19CE4AB693662C6641E8 /* libPods-IQKeyboadBugCollectionDemo.a */; };
 		84A260A62063967C0004BD4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A260A52063967C0004BD4F /* AppDelegate.m */; };
 		84A260A92063967C0004BD4F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A260A82063967C0004BD4F /* ViewController.m */; };
 		84A260AC2063967C0004BD4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A260AA2063967C0004BD4F /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		644937563433B39B61FF8C93 /* Pods-IQKeyboadBugCollectionDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IQKeyboadBugCollectionDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IQKeyboadBugCollectionDemo/Pods-IQKeyboadBugCollectionDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		84A260A12063967C0004BD4F /* IQKeyboadBugCollectionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IQKeyboadBugCollectionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A260A42063967C0004BD4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84A260A52063967C0004BD4F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -40,6 +42,8 @@
 		84A260F220639C060004BD4F /* IQKeyboadBugCollectionDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IQKeyboadBugCollectionDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A260F420639C060004BD4F /* IQKeyboadBugCollectionDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IQKeyboadBugCollectionDemoUITests.m; sourceTree = "<group>"; };
 		84A260F620639C060004BD4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3802CF19481290878574F75 /* Pods-IQKeyboadBugCollectionDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IQKeyboadBugCollectionDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-IQKeyboadBugCollectionDemo/Pods-IQKeyboadBugCollectionDemo.release.xcconfig"; sourceTree = "<group>"; };
+		DF6B19CE4AB693662C6641E8 /* libPods-IQKeyboadBugCollectionDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IQKeyboadBugCollectionDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D66F6138B1AF432D84A0EF3 /* libPods-IQKeyboadBugCollectionDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +71,8 @@
 				84A260A32063967C0004BD4F /* IQKeyboadBugCollectionDemo */,
 				84A260F320639C060004BD4F /* IQKeyboadBugCollectionDemoUITests */,
 				84A260A22063967C0004BD4F /* Products */,
+				C23B2A0E60237237379402AA /* Pods */,
+				B1B46E0985CD0A8421DCE836 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +110,23 @@
 			path = IQKeyboadBugCollectionDemoUITests;
 			sourceTree = "<group>";
 		};
+		B1B46E0985CD0A8421DCE836 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF6B19CE4AB693662C6641E8 /* libPods-IQKeyboadBugCollectionDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C23B2A0E60237237379402AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				644937563433B39B61FF8C93 /* Pods-IQKeyboadBugCollectionDemo.debug.xcconfig */,
+				D3802CF19481290878574F75 /* Pods-IQKeyboadBugCollectionDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -110,9 +134,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84A260B72063967C0004BD4F /* Build configuration list for PBXNativeTarget "IQKeyboadBugCollectionDemo" */;
 			buildPhases = (
+				ACFD86088D71AA7183452950 /* [CP] Check Pods Manifest.lock */,
 				84A2609D2063967C0004BD4F /* Sources */,
 				84A2609E2063967C0004BD4F /* Frameworks */,
 				84A2609F2063967C0004BD4F /* Resources */,
+				82AA75D887F20ADB00C4CBF7 /* [CP] Embed Pods Frameworks */,
+				4DC9CB9A96163EF34DCF8557 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,6 +226,60 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4DC9CB9A96163EF34DCF8557 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-IQKeyboadBugCollectionDemo/Pods-IQKeyboadBugCollectionDemo-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IQKeyboadBugCollectionDemo/Pods-IQKeyboadBugCollectionDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82AA75D887F20ADB00C4CBF7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IQKeyboadBugCollectionDemo/Pods-IQKeyboadBugCollectionDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACFD86088D71AA7183452950 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IQKeyboadBugCollectionDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		84A2609D2063967C0004BD4F /* Sources */ = {
@@ -355,6 +436,7 @@
 		};
 		84A260B82063967C0004BD4F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 644937563433B39B61FF8C93 /* Pods-IQKeyboadBugCollectionDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -368,6 +450,7 @@
 		};
 		84A260B92063967C0004BD4F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3802CF19481290878574F75 /* Pods-IQKeyboadBugCollectionDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
